@@ -15,6 +15,7 @@ a) DATASET:
 The format of the files is not complicated, just rows of integers separated by empty spaces.
 
 b) Command to run in python:
+
 python q1_classifier.py -p <pvalue> -f1 <train_dataset> -f2 <test_dataset> -o <output_file> -t <decision_tree>
 
 -p to set p-value threshold for the chi-square stopping criteria 
@@ -30,14 +31,24 @@ python q1_classifier.py -p <pvalue> -f1 <train_dataset> -f2 <test_dataset> -o <o
 
 ## 2. Spam Filter :
 
-The dataset we will be using is a subset of 2005 TREC Public Spam Corpus. ImplementED the Naive Bayes algorithm to classify spam.
+The dataset we will be using is a subset of 2005 TREC Public Spam Corpus.
 
-DATASET:
+ImplementED the Naive Bayes algorithm to classify spam.
+
+a) DATASET:
+
 -It contains a training set and a test set. 
--Both files use the same format: each line represents the space-delimited properties of an email, with the first one being the email ID, the second one being whether it is a spam or ham (non-spam), and the rest are words and their occurrence numbers in this email. In preprocessing, non-word characters have been removed, and features selected similar to what Mehran Sahami did in his original paper using Naive Bayes to classify spams.
 
-Command to run in python:
+-Both files use the same format: each line represents the space-delimited properties of an email, with the first one being the email ID, the second one being whether it is a spam or ham (non-spam), and the rest are words and their occurrence numbers in this email.
+
+-In preprocessing, non-word characters have been removed, and features selected similar to what Mehran Sahami did in his original paper using Naive Bayes to classify spams.
+
+b)Command to run in python:
+
  python q2_classifier.py -f1 <train_dataset> -f2 <test_dataset> -o <output_file>
+ 
 -f1 to load the training data .csv file
+
 -f2 to load the testing data .csv file
+
 -o to generate the csv file for output
