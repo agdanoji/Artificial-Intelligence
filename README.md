@@ -1,5 +1,5 @@
 # Artificial-Intelligence
-##1. Clickstream Mining with Decision Trees:
+## 1. Clickstream Mining with Decision Trees:
 The project is based on a task posed in KDD Cup 2000. It involves mining click-stream data collected from Gazelle.com, which sells legware products.Given a set of page views, will the visitor view another page on the site or will he leave?
 Implemented the ID3 decision tree learner on Python.
 
@@ -21,7 +21,7 @@ python q1_classifier.py -p <pvalue> -f1 <train_dataset> -f2 <test_dataset> -o <o
 -t to store the decision tree generated 
 
 
-##2. Spam Filter :
+## 2. Spam Filter :
 
 The dataset we will be using is a subset of 2005 TREC Public Spam Corpus. ImplementED the Naive Bayes algorithm to classify spam.
 
