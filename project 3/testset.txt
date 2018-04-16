@@ -1,0 +1,59 @@
+11 5
+Using Backtracking:
+(0, 1, 4, 9, 11)
+Using Backtracking+FC:
+[0, 1, 4, 9, 11]
+True
+
+3 3
+Using Backtracking:
+(0, 1, 3)
+Using Backtracking+FC:
+[0, 1, 3]
+[0, 2, 3]
+True
+
+6 4
+Using Backtracking:
+(0, 1, 4, 6)
+Using Backtracking+FC:
+[0, 1, 4, 6]
+[0, 2, 5, 6]
+True
+
+17 6
+Using Backtracking:
+(0, 1, 4, 10, 12, 17)
+Using Backtracking+FC:
+[0, 1, 4, 10, 12, 17]
+[0, 1, 4, 10, 15, 17]
+True
+
+2 1
+Using Backtracking:
+(0,)
+Using Backtracking+FC:
+[0]
+[1]
+[2]
+True
+
+10 5
+Using Backtracking:
+(-1, [])
+Using Backtracking+FC:
+(-1, [])
+
+13 5
+Using Backtracking:
+(0, 1, 3, 7, 12)
+Using Backtracking+FC:
+[0, 1, 4, 9, 11]
+[0, 1, 3, 7, 12]
+[0, 2, 3, 8, 12]
+[0, 1, 4, 10, 12]
+[0, 2, 5, 6, 13]
+[0, 2, 3, 7, 13]
+[0, 2, 3, 9, 13]
+True
+
